@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <JGNavBar/>
+    <JGSubNavBar/>
     <router-view/>
   </div>
 </template>
 
 <script>
 import JGNavBar from '@/components/JG/JGNavBar'
+import JGSubNavBar from '@/components/JG/JGSubNavBar'
 
 export default {
   name: 'App',
   components: {
-    JGNavBar
+    JGNavBar,
+    JGSubNavBar
   }
 }
 </script>
